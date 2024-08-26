@@ -4,8 +4,37 @@
         <meta Charset="UTF-8">
         <meta name="viewpoint" content=""width=device-width, initial-scale="1.0">
         <title>table_spanning</title>
+        <style>
+            table {
+                width: 100%;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            
+            
+        </style>
     </head>
     <body>
+        <table>
+            <tr>
+              <th colspan="2">H1</th>
+              <th>H2</th> 
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td rowspan="2" colspan="2">E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+            </tr>
+        </table>
         
     </body>
 </html>
