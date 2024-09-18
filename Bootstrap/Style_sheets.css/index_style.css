@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+.header {
+    background-color: blueviolet;
+}
+.content {
+    min-height: 500px;
+}
+.main-content {
+    background-color: blanchedalmond;
+    min-height: 500px;
+}
+.footer {
+    height: 40px;
+    background-color: red;
+}
