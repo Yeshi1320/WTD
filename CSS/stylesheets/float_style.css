@@ -1,0 +1,16 @@
+img {
+    height: 100px;
+    width: 50px;
+    float: left;
+    float: right;
+}
+
+#div1{
+    background-color: antiquewhite;
+    float: left;
+}
+#div2{
+    background-color: aqua;
+    /* float: left; */
+    clear: left;
+}
