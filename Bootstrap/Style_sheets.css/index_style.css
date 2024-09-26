@@ -2,16 +2,17 @@ body {
     background-color: aqua;
 }
 .header {
-    background-color: blueviolet;
+    min-height: 40px;
 }
 .content {
     min-height: 500px;
 }
+
 .main-content {
-    background-color: blanchedalmond;
+    background-color: antiquewhite;
     min-height: 500px;
+    border: 1px solid #fff;
 }
 .footer {
     height: 40px;
-    background-color: red;
 }
