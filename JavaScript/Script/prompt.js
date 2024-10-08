@@ -13,4 +13,10 @@ function checkEligibility() {
 
    
     document.getElementById("p1").innerText = message;
+} 
+
+
+
+if (age < 0) {
+    result = "invalid "
 }

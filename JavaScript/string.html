@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h2 id="heading"></h2>
+    <p id="p1"></p>
+    <script>
+        let str = "javascript";
+        let l = str.length;
+        let thirdChar = str[2];
+        let x = str.toUpperCase();
+        str.trim();  //trim the back and forward space
+
+        let y = str.slice(4, 10);
+
+        let result = "length:" + l + "<br>the third character: " + thirdChar + "<br>uppercase: " + x + "<br>substring: " + y;
+
+        document.getElementById('heading').innerHTML = str;
+        document.getElementById('p1').innerHTML = result;
+
+
+        let demo = "java" + "script" + 5 + 3;
+        let demo1 = 5 + 3 + "java" + "script" + 5 + 3;
+        let demo2 = 5 + 3 + "java" + 5 + 3 + "script" + 5 + 3;
+        console.log(demo)
+        console.log(demo1)
+        console.log(demo2)
+
+
+    </script>
+</body>
+</html>
